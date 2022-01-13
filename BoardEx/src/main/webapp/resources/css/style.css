@@ -1,0 +1,143 @@
+/* 브라우저 리셋 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #222;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+textarea{
+    font-family: 'Noto Sans KR', sans-serif;
+    resize: none;
+}
+
+input{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    min-width: 1000px;
+    max-width: 1040px;
+}
+
+h1{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.w_box{
+
+    text-align: center;
+}
+
+.w_input, .w_con{
+    width: 700px;
+    border: 1px solid #eee;
+}
+
+.w_input{
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.w_con{
+    padding: 10px;
+    height: 300px;
+}
+
+.w_btn{
+    margin: 0 auto;
+}
+
+.up_btn{
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+form{
+    display: block;
+    text-align: center;
+}
+
+.up_btn a{
+    color: #666;
+}
+
+/* list */
+
+table{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    border-collapse: collapse; 
+}
+
+thead{
+    border-bottom: 1px solid #eee;
+    background-color: rgb(248, 248, 248);
+}
+
+th{
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+}
+
+/* detail */
+
+
+.d_input{
+    border: none;
+    border-bottom: 1px solid #eee;  
+}
+
+.d_con{
+    border: none;
+}
+
+.m_btn, .d_btn{
+    margin: 3px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.d_btn{
+    background-color: #eee;
+}
+
+
+.m_btn a, .d_btn a{
+    color: #666;
+}
